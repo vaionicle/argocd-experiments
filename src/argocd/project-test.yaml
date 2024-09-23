@@ -1,0 +1,8 @@
+apiVersion: argoproj.io/v1alpha1
+kind: AppProject
+metadata:
+  name: staging-a
+  namespace: argocd
+  selfLink: /apis/argoproj.io/v1alpha1/namespaces/argocd/appprojects/staging-a
+status: {}
+spec: {}

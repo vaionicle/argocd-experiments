@@ -1,0 +1,8 @@
+apiVersion: argoproj.io/v1alpha1
+kind: AppProject
+metadata:
+  name: tools
+  namespace: argocd
+  selfLink: /apis/argoproj.io/v1alpha1/namespaces/argocd/appprojects/tools
+status: {}
+spec: {}
