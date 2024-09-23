@@ -1,0 +1,15 @@
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: staging-a
+  namespace: argocd
+  resourceVersion: '411705'
+  selfLink: /apis/argoproj.io/v1alpha1/namespaces/argocd/applications/staging-a
+spec:
+  destination:
+    server: https://kubernetes.default.svc
+  project: default
+  source:
+    path: src/
+    repoURL: https://github.com/vaionicle/argocd-experiments.git
+    targetRevision: HEAD
